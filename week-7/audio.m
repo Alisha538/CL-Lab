@@ -1,7 +1,7 @@
 clc
 clear all
 close all
-file_path='/home/rguktrkvalley/Desktop/cl/week7/sample-3s.wav'
+file_path='C:\Users\farra\OneDrive\Documents\CL\week-7/sample-3s.wav'
 [signal,sample_rate]=audioread(file_path)
 duration=length(signal)/sample_rate;
 time=(0:length(signal)-1)/sample_rate;

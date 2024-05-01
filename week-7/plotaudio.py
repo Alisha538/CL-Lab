@@ -1,6 +1,6 @@
 import soundfile as sf
 from matplotlib import pyplot as plt
-file_path="/home/rguktrkvalley/Desktop/cl/week7/sample-3s.wav"
+file_path="C:\Users\farra\OneDrive\Documents\CL\week-7\sample-3s.wav"
 signal,sample_rate=sf.read(file_path)
 duration=len(signal)/sample_rate
 time=[i/sample_rate for i in range(len(signal))]
